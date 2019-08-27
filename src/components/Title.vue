@@ -1,8 +1,11 @@
 <style lang="scss" scoped>
+	.heading {
+		background-image: linear-gradient(to right, coral, tomato);
+	}
 </style>
 
 <template>
-	<header>
+	<header class="heading">
 		<h1 v-text="msg"></h1>
 	</header>
 </template>
